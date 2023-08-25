@@ -1,5 +1,5 @@
 // Write a Constraint so that only n bits are set in a 6 bit number without using $countones. 
-// Idea : 1. Create 2D arrays of  n rows(Number of bits required to be set).
+// Idea : 1. Create array of  n elements (Number of bits required to be set).
 //        2. Randomize each row to onehot without using countones. 
 //        3. Make sure that no two rows are the same.  
 module count_bits ; 
