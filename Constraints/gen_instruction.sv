@@ -1,5 +1,7 @@
-// Write a constraint that generates Add, mul, sub, nop instructions. Such that no Add instruction is repeated in 3 clock cycles and sub is not repeated in the last 3 valid instructions. 
-//Nop is not a valid instruction
+// Write a constraint that generates Add, mul, sub, nop instructions.
+// Such that no Add instruction is repeated in 3 clock cycles 
+// sub is not repeated in the last 3 valid instructions. 
+// Nop is not a valid instruction
 class val_instr; 
   typedef enum {ADD, MUL , SUB , NOP} instr; 
   randc instr ins; 
